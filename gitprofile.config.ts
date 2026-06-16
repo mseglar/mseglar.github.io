@@ -79,7 +79,11 @@ const CONFIG = {
     'scikit-learn',
     'LaTeX',
     'Git',
-    'PyTorch'
+    'PyTorch',
+    'TensorFlow',
+    'C/C++', 
+    'LaTeX', 
+    'Bash',
   ],
   experiences: [
     {
