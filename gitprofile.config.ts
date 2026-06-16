@@ -35,18 +35,10 @@ const CONFIG = {
         {
           title: 'VERT adventures',
           description:
-            'Profesional mountain guide company.',
+            'Profesional mountain guide company passionate about nature, adventure, and safety. We accompany individuals and groups to discover unique landscapes, always with the utmost dedication and experience.',
           imageUrl:
-            'https://vert-adventures.com/wp-content/uploads/2025/12/LOGOTIPO-VERTyellow.png',
+            'https://vert-adventures.com/wp-content/uploads/2025/10/logo-negro-.png',
           link: 'https://vert-adventures.com/',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
         },
       ],
     },
@@ -87,63 +79,82 @@ const CONFIG = {
     'scikit-learn',
     'LaTeX',
     'Git',
+    'PyTorch'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'IFAE',
+      position: 'Senior Postdoctoral Researcher',
+      from: 'November 2022',
+      to: 'January 2026',
+      companyLink: 'https://www.ifae.es/ca/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'CNRS/LAPP',
+      position: 'Postdoctoral Researcher',
+      from: 'November 2019',
+      to: 'October 2022',
+      companyLink: 'https://www.lapp.in2p3.fr/en/lapp',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Generative AI with LLMs',
+      body: 'DeepLearning.AI',
+      year: 'in progress',
+      link: 'https://www.coursera.org/learn/generative-ai-with-llms',
+    },
+    {
+      name: 'Investment Management Specialization',
+      body: 'University of Geneva & UBS',
+      year: 'in progress',
+      link: 'https://www.coursera.org/specializations/investment-management',
+    },
+    {
+      name: 'From Science to Business',
+      body: 'ESADE Business School',
+      year: '2024',
+      link: 'https://bist.eu/events/event/course-from-science-to-business-2/',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'Université Paris-Saclay',
+      degree: 'PhD in High Energy Physics',
+      from: '2016',
       to: '2019',
     },
     {
-      institution: 'Institution Name',
+      institution: 'Université Grenoble-Alpes',
+      degree: 'MSc in Fundamental Physics',
+      from: '2015',
+      to: '2016',
+    },
+    {
+      institution: 'BSc in Physics',
       degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      from: '2010',
+      to: '2015',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'GRB 221009A: Observations with LST-1 of CTAO and Implications for Structured Jets in Long Gamma-Ray Bursts',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'The Astrophysical Journal Letters',
+      authors: 'CTAO-LST Collaboration',
+      link: 'https://arxiv.org/abs/2507.03077',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'GRB 221009A is the brightest gamma-ray burst (GRB) observed to date. Extensive observations of its afterglow emission across the electromagnetic spectrum were performed, providing the first strong evidence of a jet with a nontrivial angular structure in a long GRB. ',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title: 'Cross-Observatory Coordination with tilepy: A Novel Tool for Observations of Multi-Messenger Transient Events',
+      conferenceName: '',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: 'Monica Seglar-Arroyo, Halim Ashkar, Mathieu de Bony de Lavergne, Fabian Schüssler',
+      link: 'https://arxiv.org/abs/2407.18076',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Python package for the automatic scheduling of follow-up observations of poorly localized transient events. It is ideally suited to tackle the challenge of complex follow-up in mid and small-FoV telescope campaigns, with or without human intervention',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
