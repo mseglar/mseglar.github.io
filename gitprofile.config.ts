@@ -84,6 +84,9 @@ const CONFIG = {
     'C/C++', 
     'LaTeX', 
     'Bash',
+    'CI/CD', 
+    'Condor HPC', 
+    'PyPI'
   ],
   experiences: [
     {
